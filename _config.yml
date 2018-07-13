@@ -7,8 +7,8 @@ baseurl: ""
 
 url: "http://himsel.me" # replace by your site's url
 twitter_username: your-name
-github_username:  lukas-h
-author: "Your Name"
+github_username:  danielponeill
+author: "Daniel P. O'Neill"
 
 # google analytics tracking code, please change the value
 g_analytics: ""
@@ -27,7 +27,7 @@ projects_btn: "Projects"
 posts_btn: "Posts"
 imprint_btn: "Imprint"
 name_badge: "an article by"
-rss_badge: "Subscribe feed!"
+rss_badge: "Subscribe"
 
 # build settings
 markdown: kramdown
