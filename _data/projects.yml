@@ -1,9 +1,12 @@
-- name: project 1
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-- name: project 2
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-- name: project 3
-  link: "#"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+- name: Senior Vice President, Change Healthcare Inc.
+  link: "https://www.changehealthcare.com/solutions/developer-platform"
+  description: "General Manager and head of product for ~$350 million dollar business line, which serves health plans, hospitals and health systems, physician groups and digital health developers."
+- name: Vice President, Practice Fusion Inc.
+  link: "https://www.practicefusion.com/partners/"
+  description: "Commercial leader for the platform business of a venture-backed, cloud-based EHR used by ~20,000 physicians.  We created and launched five different product lines in <36 months, including solutions for health plans, accountable care organizations, clinical labs, imaging groups and revenue cycle management services."
+- name: Director, Elsevier Clinical Solutions
+  link: "https://www.elsevier.com/clinical-solutions"
+  description: "Product strategy and business development for a suite of clinical decision support tools and AI-driven population health analytics."
+- name: Project Leader, The Boston Consulting Group
+  link: "https://www.bcg.com"
+  description: "Wide range of strategy projects for American, British, German, Israeli and Brazilian firms in technology, financial services, retail, consumer goods and agribusiness, while working out of BCG's offices in São Paulo and New York."
