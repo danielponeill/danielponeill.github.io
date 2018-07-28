@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Use my jekyll theme"
+title:  "Work in progress"
 date:   2016-09-19 22:10:00 +0200
 tags: ['english', 'jekyll', 'theme']
-author: "Lukas Himsel"
+author: "Author"
 ---
 
 ## Hints
 
-If you want to use my jekyll theme, follow the instructions and host it yourself. Easily setup as a Github page.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis aliquam dolor.  
 
 To add pages (for example a portfolio, an extra about page, and so on), you need to link them to the `index.html` manually. Required to configure in this dimensions is a bit of html and jekyll know-how. Reading the [Jekyll docs](http://jekyllrb.com/docs/pages/) could help. All other things are easy to edit and configure, even without much jekyll experience.  
 
