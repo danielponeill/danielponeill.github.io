@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rethinking Patient Data Privacy In The Era Of Digital Health"
-date:   2019-12-12 00:00:00 +0200
+date:   2019-12-12 00:00:00 -0800
 tags: ['HIPAA', 'privacy', 'data', 'healthcare', 'health care']
 author: "Lisa Bari and Dan ONeill"
 ---
@@ -24,8 +24,8 @@ Two recent consumer protection laws, the European General Data Protection Regula
 
 Beyond this structural difference, HIPAA and the GDPR contain many similar patterns (see exhibit 1 below). Both employ the notion of a primary data custodian (a “covered entity” in HIPAA or a “controller” in the GDPR) and a third party, which may process data on that custodian’s behalf (business associate or processor). Both define categories of permitted use and disclosure—akin to the “Treatment, Payment, and Health Care Operations” in the HIPAA privacy rule; GDPR codifies a narrower list of permitted uses for sensitive categories of data, including health information and genetic markers. And both codify parameters for patient or consumer consent for use or disclosure beyond those categories (known as affirmative authorization in the CCPA), and rules to ensure that individuals and regulators are notified in the event of a data breach.  
 
-#Exhibit 1: Comparison of HIPAA, GDPR, and proposed HIPAA extension
-![Comparison of HIPAA, GDPR, and proposed HIPAA extension]({{"/images/HIPAA vs GDPR_dponeill.PNG"|absolute_url}})
+
+# Modernizing HIPAA For The Digital Health Era
 
 This comparison of the two models suggests that legislators should focus on five areas to adapt the HIPAA framework to protect privacy as patients and clinicians embrace new data-driven tools to manage their health and deliver care:
 
@@ -39,7 +39,9 @@ This comparison of the two models suggests that legislators should focus on five
 
 5. Specify clear parameters for consumer-friendly and revocable consent, for any use or disclosure of data beyond the narrowly permitted categories above. These parameters could build on existing rules for informed consent (in health care and other fields), with limits such as those applied to “compound authorization” for research participation. 
 
-#Exhibit 1: Comparison of HIPAA, GDPR, and proposed HIPAA extension
+# Exhibit 1: Comparison of HIPAA, GDPR, and proposed HIPAA extension
+
+![Comparison of HIPAA, GDPR, and proposed HIPAA extension]({{"/images/HIPAA vs GDPR_dponeill.PNG"|absolute_url}})
 
 Once these definitions are established, legislators can then extend existing security and breach notification rules to all custodians and processors. This would involve little change (and hence few new burdens) for covered entities and business associates that must already adhere to the same rules under the HIPAA umbrella. It also ensures a single set of security standards that can continue to evolve as technical methods (for example, de-identification) progress. There is a precedent for this sort of extension—HITECH included business associates in the breach notification rules, through an update to the HIPAA Breach Notification regulations. Accordingly, many software companies active in health care already carry obligations to report breaches of protected health data to the covered entity, which then notifies individuals, the media, and the Department of Health and Human Services (HHS) secretary as usual. A further extension would be a natural follow-on step, incorporating other patient-facing products from the same firms (such as personal health records) and other companies that capture, store, and process individually identifiable health information outside of a covered entity relationship. 
 
