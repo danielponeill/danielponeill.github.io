@@ -6,7 +6,7 @@ tags: ['HIPAA', 'privacy', 'data', 'healthcare', 'health care']
 author: "Lisa Bari and Dan ONeill"
 ---
 
-_This article originally appeared as a [Health Affairs article](https://www.healthaffairs.org/do/10.1377/hblog20191210.216658/full/)_
+_This article originally appeared as a [Health Affairs article](https://www.healthaffairs.org/do/10.1377/hblog20191210.216658/full/), co-authored with Lisa Bari._
 
 Over the past 10 years, US health care has gradually shifted toward digital record keeping in the professional realm—the world of hospitals, health plans, and physician practices. That transition occurred under the umbrella of privacy and security rules rooted in the Health Insurance Portability and Accountability Act of 1996 (HIPAA), a law which predates most modern online and mobile services, and explicitly excludes health information created or managed by patients themselves. As federal and state lawmakers look to revamp privacy rules, this post outlines a proposal to adapt and extend the familiar HIPAA framework, and some of the fiduciary principles embedded in that framework, for a new era of digital-first health care. We suggest that Congress could enact a package of incremental reforms to ensure the privacy of health data, while broader debates about online consumer data protection continue. 
 
@@ -24,7 +24,8 @@ Two recent consumer protection laws, the European General Data Protection Regula
 
 Beyond this structural difference, HIPAA and the GDPR contain many similar patterns (see exhibit 1 below). Both employ the notion of a primary data custodian (a “covered entity” in HIPAA or a “controller” in the GDPR) and a third party, which may process data on that custodian’s behalf (business associate or processor). Both define categories of permitted use and disclosure—akin to the “Treatment, Payment, and Health Care Operations” in the HIPAA privacy rule; GDPR codifies a narrower list of permitted uses for sensitive categories of data, including health information and genetic markers. And both codify parameters for patient or consumer consent for use or disclosure beyond those categories (known as affirmative authorization in the CCPA), and rules to ensure that individuals and regulators are notified in the event of a data breach.  
 
-#Modernizing HIPAA For The Digital Health Era
+#Exhibit 1: Comparison of HIPAA, GDPR, and proposed HIPAA extension
+![Comparison of HIPAA, GDPR, and proposed HIPAA extension]({{"/images/HIPAA vs GDPR_dponeill.PNG"|absolute_url}})
 
 This comparison of the two models suggests that legislators should focus on five areas to adapt the HIPAA framework to protect privacy as patients and clinicians embrace new data-driven tools to manage their health and deliver care:
 
