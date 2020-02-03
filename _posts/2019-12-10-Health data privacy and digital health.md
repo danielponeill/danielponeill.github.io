@@ -1,29 +1,51 @@
 ---
 layout: post
-title:  "Markdown flavour"
-date:   2016-09-19 00:00:00 +0200
-tags: ['example', 'welcome']
-author: "Your Name"
+title:  "Rethinking Patient Data Privacy In The Era Of Digital Health"
+date:   2019-12-12 00:00:00 +0200
+tags: ['HIPAA', 'privacy', 'data', 'healthcare', 'health care']
+author: "Lisa Bari and Dan ONeill"
 ---
 
-I have some text.
+Over the past 10 years, US health care has gradually shifted toward digital record keeping in the professional realm—the world of hospitals, health plans, and physician practices. That transition occurred under the umbrella of privacy and security rules rooted in the Health Insurance Portability and Accountability Act of 1996 (HIPAA), a law which predates most modern online and mobile services, and explicitly excludes health information created or managed by patients themselves. As federal and state lawmakers look to revamp privacy rules, this post outlines a proposal to adapt and extend the familiar HIPAA framework, and some of the fiduciary principles embedded in that framework, for a new era of digital-first health care. We suggest that Congress could enact a package of incremental reforms to ensure the privacy of health data, while broader debates about online consumer data protection continue. 
 
-I want some _italics_.
+Personal health information is no longer private. Social media platforms, wearable fitness trackers, and apps to manage pregnancy and mental health all collect health data that can be shared for advertising purposes and appended to medical records and other consumer information. Ovia, an app women can use to track their fertility, pregnancy, and childbirth, has created paid services that exposes such data to employers in de-identified form. Dozens of depression and smoking cessation apps share data with third parties for advertising and other purposes, often without any disclosure to, or consent from, the individuals using the applications. Moreover, even when health information is stripped of personal identifiers, it can often be re-identified with low effort. —In one 2018 study, researchers were able to re-identify 95 percent of individual adults from the National Health and Nutrition Examination Survey using machine learning techniques. 
 
-I want some **bold**.
+On the social media front, Facebook’s new Preventive Health tool stands to collect extremely personal data about health status. The company promises that it will not share this information with advertisers or insurance companies, but Facebook’s history of privacy violations and recurring data breaches suggests that such claims deserve a skeptical reception. Even personal health records—often presented to patients as the portal to an electronic health record (EHR) used by a physician—are cause for concern because data uploaded by patients, or which is subtly shifted from the physician’s stewardship to consumer control, loses privacy protections. For example, FollowMyHealth, a personal health record operated by EHR vendor Allscripts, explicitly reserved the right to use patient data for “marketing and advertising purposes…whether on our behalf or on behalf of marketing partners,” defending that fine print by explaining how a patient-controlled portal is exempt from privacy rules that would apply to the physician’s software tools. As a longstanding Silicon Valley adage warns: “If the product is free, you are the product.” 
 
-# this is heading 1
+With rapid growth in the range and volume of patient data, which is available in digital form, the limits of the HIPAA framework—now almost a quarter century old—merit legislative attention. Without clear guardrails, public trust may crumble in the face of repeated scandals and so undermine the potential for digital health to facilitate an era of more accessible, coordinated, and personalized care. 
 
-## this is heading 2
+HIPAA, as passed in 1996 and amended in 2009 through the Health Information Technology for Economic and Clinical Health (HITECH) Act, defines privacy through a sectoral lens. As in other squares of America’s privacy “patchwork,” HIPAA specifies a group of industry actors (health plans, provider organizations, and clearinghouses), designates them as “covered entities,” and then regulates how these entities and their subcontractors (business associates) use a certain class of information (individually identifiable health information). A patient’s health information, in short, is only “protected” when it is recorded or used by one of these covered entities. This framework, as codified through the HIPAA Privacy, Security and Breach Notification rules, has proven flexible enough to accommodate significant changes in the scope and medium of information collection and transfer, as these covered entities have broadened their use of clinical data (for example, for quality measurement) and replaced analog data storage methods with digital systems. 
 
-### this is heading 3
+The focus on a specific set of entities, however, links privacy protections to a snapshot of the industry at a point in time, and that entity-based structure effectively exempts a growing industry of health management tools. For example, Ovia (the fertility and pregnancy app previously mentioned) collects highly personal data from consumers, such as menstrual cycles or sexual activity, which clearly meets the definition of individually identifiable health information but is not protected health information because no HIPAA-defined covered entities are involved in that data collection or management. The same applies to the smoking cessation and mental health tracking tools—and their deficient or non-existent privacy policies—examined by Kit Huckvale and colleagues. Similarly, when Allscripts invites patients to join FollowMyHealth to “message your doctor [and] refill your medicine,” any data that the patient uploads, or which becomes part of a patient-controlled record, could fall outside of HIPAA protections and so open the door for Allscripts (or any other health record vendor) to use that data in ways similar to any other online consumer service.  
 
-you want a list?
-* first
-* second
-* third
+Two recent consumer protection laws, the European General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA), take a different approach. To simplify somewhat, both laws anchor protections to the data itself. Regulated entities are thus defined by their relationship to the data (see note 1), not the other way around. The GDPR and the CCPA take a similar conceptual approach to the permitted and prohibited uses of personal information, individuals’ rights of access and control, and firms’ obligations to respect those limits and rights. All these rules and rights are tethered to “what” the data is, not “who” may be holding it.  
 
-you want an ordered list?
-1. whatever
-1. whatever
-1. whatever
+Beyond this structural difference, HIPAA and the GDPR contain many similar patterns (see exhibit 1 below). Both employ the notion of a primary data custodian (a “covered entity” in HIPAA or a “controller” in the GDPR) and a third party, which may process data on that custodian’s behalf (business associate or processor). Both define categories of permitted use and disclosure—akin to the “Treatment, Payment, and Health Care Operations” in the HIPAA privacy rule; GDPR codifies a narrower list of permitted uses for sensitive categories of data, including health information and genetic markers. And both codify parameters for patient or consumer consent for use or disclosure beyond those categories (known as affirmative authorization in the CCPA), and rules to ensure that individuals and regulators are notified in the event of a data breach.  
+
+#Modernizing HIPAA For The Digital Health Era
+
+This comparison of the two models suggests that legislators should focus on five areas to adapt the HIPAA framework to protect privacy as patients and clinicians embrace new data-driven tools to manage their health and deliver care:
+
+1. Define individually identifiable health information as an inherently protected class of data, rather than a class that is protected only when created or held by certain entities. This definition may require exclusion criteria, to avoid capturing casual mentions (for example, a Facebook comment about a broken leg) or information that could indirectly imply some health-related information (for example, diaper purchases or GPS data showing an individual in the vicinity of a clinic), as long as that data are not used to create or commercialize health profiles of the individual.
+
+2. Create new definitions of individually identifiable health information “custodians” and “processors,” whose obligations (and liability) are like those of covered entities and business associates under existing law.
+
+3. Establish individuals’ right to access, amend, and delete individually identifiable health information that is held by a custodian or processor, and to know about and control the use or disclosure of their own data, including any participation in de-identified data sets used for research purposes.
+
+4. Codify the permitted uses of such individually identifiable health information, absent explicit, ongoing, and granular patient consent. These use categories could be rooted in the fiduciary principle that already applies to clinicians and other professionals with a duty of care and might correspond to the “treatment” use cases in existing regulations. A heart rate monitor worn for fitness could, for example, be permitted to use the data to share personalized, clinically validated health information for the patient’s benefit, but could not use the same data to power targeted advertising, which would benefit the company that produces the monitor.
+
+5. Specify clear parameters for consumer-friendly and revocable consent, for any use or disclosure of data beyond the narrowly permitted categories above. These parameters could build on existing rules for informed consent (in health care and other fields), with limits such as those applied to “compound authorization” for research participation. 
+
+#Exhibit 1: Comparison of HIPAA, GDPR, and proposed HIPAA extension
+
+Once these definitions are established, legislators can then extend existing security and breach notification rules to all custodians and processors. This would involve little change (and hence few new burdens) for covered entities and business associates that must already adhere to the same rules under the HIPAA umbrella. It also ensures a single set of security standards that can continue to evolve as technical methods (for example, de-identification) progress. There is a precedent for this sort of extension—HITECH included business associates in the breach notification rules, through an update to the HIPAA Breach Notification regulations. Accordingly, many software companies active in health care already carry obligations to report breaches of protected health data to the covered entity, which then notifies individuals, the media, and the Department of Health and Human Services (HHS) secretary as usual. A further extension would be a natural follow-on step, incorporating other patient-facing products from the same firms (such as personal health records) and other companies that capture, store, and process individually identifiable health information outside of a covered entity relationship. 
+
+To extend the existing HIPAA security and breach notification rules to the new custodians and processors, legislators should focus on three steps:
+
+1. Apply the existing security rule to all custodians and processors of individually identifiable health information, irrespective of the data provenance or primary customer.
+
+2. Require all custodians and processors to directly notify individuals, the media, and the HHS secretary in the event of a breach. Processors that are acting as business associates of a covered entity would also remain obligated to notify that covered entity of the breach.
+
+3. Establish specific, consumer-friendly, and granular notification requirements. These notifications would specify which data elements were inappropriately exposed to whom and would be designed for easy public comprehension and directly linked to consumer actions, such as one-click revocation of data-sharing permissions for that app or company. Easy consumption could imply, for example, prominent posting of a plain language notice of a recent breach on a company’s consumer home page or app sign-in screen for a period after the breach occurred.
+
+A year ago, Fitbit’s acquisition of Twine, a health coaching platform used in employer wellness programs, highlighted growing adoption of wearables and blurred boundaries among consumers, patients, and paying enterprise customers. This year, Google’s planned acquisition of Fitbit raises new concerns about a sudden marriage between a pool of largely unregulated health data and a business built almost entirely on using personal information to power third-party advertising. The market is charging ahead, and some digital tools will create much-needed access options for patients in need of care, will help clinicians deliver care in more convenient and efficient ways, and could underpin path-breaking research built on new pools of patient data. It is time for legislators to adapt and extend the venerable HIPAA framework to facilitate responsible, constructive innovation and ensure patient confidence in the new world of digital health.
