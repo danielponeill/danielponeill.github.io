@@ -41,7 +41,7 @@ This comparison of the two models suggests that legislators should focus on five
 
 ## Exhibit 1: Comparison of HIPAA, GDPR, and proposed HIPAA extension
 
-![California's current healthcare funding streams]({{"/images/CA_health_funding.PNG"|absolute_url}})
+![Comparison of HIPAA, GDPR, and proposed HIPAA extension]({{"/images/HIPAA_vs_GDPR.PNG"|absolute_url}})
 
 Once these definitions are established, legislators can then extend existing security and breach notification rules to all custodians and processors. This would involve little change (and hence few new burdens) for covered entities and business associates that must already adhere to the same rules under the HIPAA umbrella. It also ensures a single set of security standards that can continue to evolve as technical methods (for example, de-identification) progress. There is a precedent for this sort of extension—HITECH included business associates in the breach notification rules, through an update to the HIPAA Breach Notification regulations. Accordingly, many software companies active in health care already carry obligations to report breaches of protected health data to the covered entity, which then notifies individuals, the media, and the Department of Health and Human Services (HHS) secretary as usual. A further extension would be a natural follow-on step, incorporating other patient-facing products from the same firms (such as personal health records) and other companies that capture, store, and process individually identifiable health information outside of a covered entity relationship. 
 
