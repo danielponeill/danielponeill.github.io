@@ -16,5 +16,5 @@ As the debate over health care costs continues, wasteful spending — outlays fo
 
 These and similar studies often critique health care as if it were a single $3.3 trillion industry. However, the health sector is a mosaic of smaller markets for particular services or products, each further subdivided by the varying rules, pricing models, and administrative mechanics of a particular provider-payer pair...
 
-_[Article continues on the Health Affairs blog](https://www.healthaffairs.org/do/10.1377/hblog20180530.245587/full/), and includes several additional graphics.
+_[Article continues on the Health Affairs blog](https://www.healthaffairs.org/do/10.1377/hblog20180530.245587/full/), and includes several additional graphics._
 
