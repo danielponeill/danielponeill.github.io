@@ -1,29 +1,8 @@
 ---
 layout: post
-title:  "Markdown flavour"
-date:   2016-09-19 00:00:00 +0200
-tags: ['example', 'welcome']
-author: "Your Name"
+title:  "Wasted Health Spending: Who’s Picking Up The Tab?"
+date:   2018-05-31 00:00:00 -0800
+tags: ['healthcare', 'spending', 'health costs', 'waste', 'national health expenditures']
+author: "Dan ONeill and David Scheinker, PhD"
 ---
 
-I have some text.
-
-I want some _italics_.
-
-I want some **bold**.
-
-# this is heading 1
-
-## this is heading 2
-
-### this is heading 3
-
-you want a list?
-* first
-* second
-* third
-
-you want an ordered list?
-1. whatever
-1. whatever
-1. whatever
