@@ -1,29 +1,71 @@
 ---
 layout: post
-title:  "Markdown flavour"
-date:   2016-09-19 00:00:00 +0200
-tags: ['example', 'welcome']
-author: "Your Name"
+title:  "Rethinking Patient Data Privacy In The Era Of Digital Health"
+date:   2020-04-14 00:00:00 -0800
+tags: ['COVID-19', 'health information exchange', 'data', 'public health', 'healthcare', 'health care']
+author: "Aaron Miri and Dan ONeill"
 ---
 
-I have some text.
+_This article originally appeared as a [Health Affairs article](https://www.healthaffairs.org/do/10.1377/hblog20200413.644614/full/), co-authored with Aaron Miri, of the Univeristy of Texas Health and Dell Medical School._
 
-I want some _italics_.
+As health officials struggle to calibrate the duration of COVID-19 stay-at-home orders, with one eye on skyrocketing unemployment, Gottlieb et al have outlined a phased roadmap to arrest and manage the pandemic until mass vaccination is possible. At key points, public health decisions depend on data, particularly from diagnostic testing and hospital case reports, and then from serological assays and sustained local contact tracing. The infrastructure to collect this data exists in part, but often as a patchwork, with highly variable participation and granularity across geographies and health care providers.
 
-I want some **bold**.
+In this post, we outline key steps for a crash program to expand this infrastructure and to inform the phase triggers proposed by Gottlieb et al. Broadly speaking, we argue that this program can and should rely on technical standards and data sharing systems which already exist, but will require a more dirigiste approach than the U.S. has embraced in the past, with firm federal coordination, and in some cases, mandatory provider participation.
 
-# this is heading 1
+## Clinical Data, Interoperability And The Barriers To Public Health
 
-## this is heading 2
+American health care enters the COVID crisis after a decade of public investment in digital technology. Taxpayers have handed more than $30 billion to hospitals and physicians to subsidize implementation of electronic health records (EHRs); EHRs are now ubiquitous among hospitals and used by more than 85 percent of ambulatory providers. That technology creates a useful foundation for COVID management within discrete health care organizations, but the industry has made rather less progress in connecting systems and data among providers, payers and public health agencies that will all play a role in managing the crisis. To close the data-sharing gaps which hamstring pandemic response, we must draw on some of the lessons of the past decade—in particular, the reasons why some types of information exchange are now routine and progress elsewhere has been underwhelming. 
 
-### this is heading 3
+Broadly speaking, federal programs (“Meaningful Use” and “Promoting Interoperability”) have relied on provider grants and incentives and encouraged de-centralization, with data-sharing initiatives largely left to the marketplace, or local communities. At the same time, American health care’s basic economic structure—fragmented payers and providers and (predominantly) fee-for-service revenue—produced highly uneven attention to data sharing. Pharmacies and laboratories, for example, are generally well-connected to the physicians who order tests and medications, because these links directly support pharmacy or lab revenue streams. Similarly, 96 percent of medical claims are transmitted electronically, because this wiring accelerates payment to hospitals and physicians. Pharmacies, labs, hospitals, medical practices and insurers all routinely pay for these forms of electronic data sharing, which has ensured steady progress.
 
-you want a list?
-* first
-* second
-* third
+In contrast, there is usually a much weaker business case for information exchange in support of care coordination or public health, so these networks receive less attention and private sector investment, and data sharing is often the exception more than the rule. Longstanding hospital resistance to sharing Admit Discharge Transfer (ADT) information is a case in point; had hospitals been more willing to build ADT data feeds over the past 5-10 years, local providers and public health agencies would be better able to track and coordinate local ER and bed utilization amidst a COVID crunch.
 
-you want an ordered list?
-1. whatever
-1. whatever
-1. whatever
+Fragmentation also slows progress. The cost and complexity of data sharing depends heavily on the number of network “edges”— the sheer volume of separate links between network participants that must be established, tested and maintained. A de-centralized model, reliant on 1:1 connections among the nation’s 250,000 physician practices, 6,000 hospitals and 3,000 local health departments, takes longer to assemble, and can be costlier to maintain than a more centralized or hub-and-spoke approach. Given this weak business case, providers and vendors alike have resisted data-sharing mandates. To this day, after years of taxpayer subsidies for electronic health records (EHRs), electronic lab and case reporting remains optional for hospitals that receive those subsidies.
+
+Despite those hurdles, however, key pieces of the necessary data infrastructure for mass COVID surveillance and management do exist and are already collecting data at scale, albeit with gaps, both in the data transmitted in each payload and the number of participating providers, labs and local health agencies. The lab reporting network, for example, receives about 20 million reports annually, of which some 80 percent arrive electronically, generally using the widely available HL7 standards supported by most EHR systems. Nevertheless, participation in electronic reporting has historically been rather uneven—large commercial labs (e.g. Quest, LabCorp and BioReference) report electronically, but hospital labs much less so—and the network will have to scale up at least three-fold to capture the million COVID tests per week suggested by epidemiologists.
+
+Similarly, the Centers for Disease Control (CDC) already runs a program for electronic case reporting (“Digital Bridge”), but only seven public health departments used this approach as of 2018. For many, case reports still take the form of a PDF file sent to a CDC email address. Again, the electronic case reporting network relies on a family of data standards (C-CDA templates) built into most EHRs, but many interfaces are not yet in production. And, as is evident in the CDC’s mortality and morbidity reports on COVID-19, case reports are often missing salient details. The March 31 report, for example, included some 74,000 COVID case reports received by March 28 (out of the estimated 118,000 U.S. cases by that date), but almost 90 percent of these apparently lacked any data about underlying health conditions such as diabetes or chronic lung disease, and 75 percent lacked information about hospitalization. 
+
+## Roadmap To Accelerate COVID Data Infrastructure
+
+An accelerated program to close these data gaps can and should build on infrastructure that is already in place, if only to avoid the “Iowa Caucus problem” of launching untested technology during a moment of peak need. Below, we outline key steps for public health agencies, technology vendors, and the hospitals and other clinics that diagnose and care for COVID patients. However, given the experience with data sharing over the past decade, a crash program likely requires a shift from voluntary to mandatory provider and vendor participation, with clear federal direction (and financial support, perhaps via the $4.3 billion in CARES Act public health funding).
+
+## Proposed Action Items For The Next 30 – 60 Days
+
+## Public Health Agencies And Federal Regulators
+
+Establish standard national testing criteria rooted in medium-term surveillance goals, not local supply chains. As the COVID crisis exploded, test availability was a crippling bottleneck; in the first two weeks of March, the U.S. managed to test fewer than 26,000 people. As a result, many states tightly rationed access to tests (e.g. only for hospitalized patients), but the test triage criteria vary widely across states, cities, and even local facilities. In San Francisco, for example, urgent care clinics now offer testing on demand for privately insured patients, often by sending specimens to a commercial lab. However, many patients with Medicaid or HealthySF plans can only be referred to the city’s public health system, where capacity is limited, and so tightly rationed. Accordingly, test triage criteria are inconsistent, even within one city, and across demographic and socioeconomic strata. This variability makes positivity rates and case counts highly unreliable, and often not comparable across geographies or demographic groups.
+
+To reduce the selection bias in who gets tested and so make reported data more useful, we will need standard national testing criteria geared toward population-level surveillance (and re-opening decisions), not the vagaries of local capacity, existing hospital referral relationships, or insurance networks. Initially, there will be backlogs and long wait times for results, but test capacity is accelerating, and could soon reach one million per week, a target suggested by epidemiologists.
+
+Impose mandatory electronic lab and case reporting requirements. Initially, these could apply only to laboratories and hospitals who do COVID tests or treat a minimum number of COVID patients, but should also have a tight submission deadline (perhaps 48 hours), and lab reports must include positive and negative results. These reporting mandates should explicitly reference the minimum content discussed below, so that public health officers receive comprehensive data to inform community-level analysis and facilitate immediate follow-up or contact tracing.
+
+Define clear minimum content requirements for electronic test and case reports. These should be limited to the most important elements necessary to track and manage the epidemic (e.g. order date of a COVID test, patient demographic information for positive results, or a coded diagnosis list in C-CDA case reports) to minimize technical difficulty, and hence speed implementation, for reporting providers and vendors. The United States Core Data for Interoperability (USCDI) can serve as a guide for the data elements in case reports, though not all of these elements will be required for COVID management. Sampling or post hoc batch data extraction can supplement daily feeds for research and other use cases.
+
+Build national provider data submission endpoints for electronic lab and case reports, as a backstop for jurisdictions where local health agencies have not already established broad connectivity with provider organizations, and the associated (timely) submissions to the CDC. As Farzad Mostashari and others have argued, there is a clear case for routing these case reports to local authorities who must do the investigations and contact tracing, and in many localities the data infrastructure is already in place. Other communities, however, have struggled with budget constraints or prioritization, leaving gaps. Moreover, cloud-based EHR vendors will be able to implement mass reporting across ambulatory (or small hospital) sites much more quickly if they have a national option, versus rushing to test dozens of state and local interfaces in a matter of weeks amidst the myriad other burdens currently facing local health officials.
+
+## Health Care Technology Vendors
+
+Immediately push terminology updates for COVID coding and documentation. The CDC and other governing bodies have already published new ICD-10, CPT, SNOMED, and LOINC codes for COVID-19. EHR vendors should immediately deploy updates to the client systems they support, so that these codes are available within point-of-care and back office workflows, and can be included in electronic orders, results, documentation, and claims, which will later form the basis for public health surveillance and decision-making. In general, most vendors rely on specialized terminology management solutions (e.g. Health Language or Intelligent Medical Objects) which have already incorporated COVID nomenclature in their libraries, so vendors should be able to update most software within days, or at worst, weeks.
+
+Develop and deploy standard screens and database queries for COVID case capture and reporting. These may vary across different versions of hospital EHR and data repository software, but four large vendors (Epic, Cerner, Meditech and CPSI) cover roughly 80 percent of all hospitals, and an even larger percentage of beds, and each has the scale and service personnel to assist hospital clients in implementing these tools on a short time horizon. Similarly, software vendors serving ambulatory surgery centers and other facilities that may be re-purposed as overflow hospitals or ICU beds could deploy lightweight versions of inpatient documentation screens, allowing these facilities to act as “auxiliary hospitals,” while still capturing and contributing the data necessary for public health decisions.
+
+Begin vendor-driven public health reporting for ambulatory care settings. Under normal operations, the power to share clinical data with public health authorities rests solely with “covered entities” (i.e. individual providers or medical practices). However, new Health and Human Services (HHS) guidance allows HIPAA Business Associates to disclose protected health information to public health agencies during the COVID-19 emergency. That designation applies to most EHR vendors and would allow cloud-based systems to initiate reporting on behalf of tens of thousands of ambulatory care settings.
+
+## Hospitals And Clinical Laboratories 
+
+Initiate electronic lab and case reporting to state public health networks, if available and not already live. Alternatively, providers in jurisdictions without local reporting pathways can engage vendors to test or upgrade HL7 message output, and begin testing submission to national endpoints as soon as available.
+
+Define an integrated process for COVID patient diagnosis, management and reporting. The immediate need is to screen, treat and follow-up with patients, while capturing and reporting the necessary data to public health agencies (as per above). However, these workflows and screens should also be designed to support contact tracing once local authorities shift to renewed containment efforts, as part of a managed relaxation of social distancing strictures. Exhibit 1 illustrates – in abbreviated form – how the University of Texas Health in Austin has embedded case and contact data capture, including the index patient’s address, phone and email information in treatment and management workflows, using a mix of manual information entry and data extraction from internal repositories. 
+
+## Exhibit 1: COVID screening, management and data capture at UT Health.
+
+![COVID process map at UT Health]({{"/images/UT_COVID_process_map.PNG"|absolute_url}})
+
+Source: University of Texas Health at Austin / Dell Medical School 
+
+## Accelerated Infrastructure, To Support Phased Re-Opening
+
+As Gottlieb et al argue, a phased approach to “re-opening” requires a series of data-driven decisions. To date, public health data sharing has often taken a back seat to information flows linked to referrals, prescriptions, and other profitable transactions in a financially driven health care system. Despite those hurdles, the foundational systems exist to fill critical gaps, on a short time horizon. As we argue above, public health agencies, technology vendors, hospitals and labs can all take immediate steps to capture more of the necessary data in local systems, and then to submit that information to state and federal repositories in a timely fashion. However, accelerated progress will also depend on comprehensive electronic reporting mandates and a greater acceptance of centralized data submission pathways than has often been the case in the recent past.
+
+Finally, the COVID crisis should highlight the urgency of nationwide clinical data sharing, as envisioned by the 21st Century Cures Act. Rapid adoption of the modern technical standards outlined by the HHS Office of the National Coordinator (ONC) will equip American health care to respond more effectively to future epidemics, or even to subsequent outbreaks of SARS-Cov-2.
