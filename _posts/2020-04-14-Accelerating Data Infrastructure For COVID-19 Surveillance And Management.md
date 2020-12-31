@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rethinking Patient Data Privacy In The Era Of Digital Health"
+title:  "Accelerating Data Infrastructure For COVID-19 Surveillance And Management"
 date:   2020-04-14 00:00:00 -0800
 tags: ['COVID-19', 'health information exchange', 'data', 'public health', 'healthcare', 'health care']
 author: "Aaron Miri and Dan ONeill"
