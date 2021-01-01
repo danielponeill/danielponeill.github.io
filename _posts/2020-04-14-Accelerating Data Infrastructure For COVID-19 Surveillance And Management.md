@@ -6,7 +6,7 @@ tags: ['COVID-19', 'health information exchange', 'data', 'public health', 'heal
 author: "Aaron Miri and Dan ONeill"
 ---
 
-_This article originally appeared as a [Health Affairs article](https://www.healthaffairs.org/do/10.1377/hblog20200413.644614/full/), co-authored with Aaron Miri, of the Univeristy of Texas Health and Dell Medical School._
+_This article originally appeared as a [Health Affairs article](https://www.healthaffairs.org/do/10.1377/hblog20200413.644614/full/), co-authored with Aaron Miri, of University of Texas Health and the Dell Medical School._
 
 As health officials struggle to calibrate the duration of COVID-19 stay-at-home orders, with one eye on skyrocketing unemployment, Gottlieb et al have outlined a phased roadmap to arrest and manage the pandemic until mass vaccination is possible. At key points, public health decisions depend on data, particularly from diagnostic testing and hospital case reports, and then from serological assays and sustained local contact tracing. The infrastructure to collect this data exists in part, but often as a patchwork, with highly variable participation and granularity across geographies and health care providers.
 
