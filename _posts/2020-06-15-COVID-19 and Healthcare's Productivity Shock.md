@@ -2,7 +2,7 @@
 layout: post
 title:  "COVID-19 and Healthcare's Productivity Shock"
 date:   2020-06-15 00:00:00 -0800
-tags: ['HIPAA', 'privacy', 'data', 'healthcare', 'health care']
+tags: ['Health costs', 'health economics', 'hospitals', 'staffing', 'productivity', 'COVID_19', 'healthcare', 'health care']
 author: "Alan Kaplan and Dan ONeill"
 ---
 
